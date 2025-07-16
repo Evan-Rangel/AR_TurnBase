@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\grid\\gridsystemvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\gridsystemvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelScripting.cs",
+              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\LevelScripting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripting.cs",
+              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\LevelScripting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelScripting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T22:35:36.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pathfinding.cs",
+              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Pathfinding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pathfinding.cs",
+              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Pathfinding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pathfinding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T22:35:12.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Unit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Unit.cs",
+              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Unit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T21:10:30.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GridSystemVisual.cs",
+              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystemVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\GridSystemVisual.cs",
+              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystemVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\GridSystemVisual.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwBMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T21:05:08.556Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
