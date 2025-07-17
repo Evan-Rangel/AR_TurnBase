@@ -377,13 +377,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5633942362570628714}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.70961595, y: -0, z: -0, w: 0.7045888}
   m_LocalPosition: {x: 0, y: 0.01, z: 0}
   m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 702917939634880373}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90.406006, y: 0, z: 0}
 --- !u!33 &8255776157092009946
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 6974969795929022510}
   m_Layer: 7
   m_Name: Unit_Healer
-  m_TagString: Untagged
+  m_TagString: Healer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72fdb1e5fcb51844a0054f73ca68d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action_Max: 2
+  action_Max: 3
   isEnemy: 0
 --- !u!114 &121005556019208392
 MonoBehaviour:
@@ -847,7 +847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06e90aa97981534a83eecca52c94d30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMoveDistance: 4
+  maxMoveDistance: 5
 --- !u!114 &2212838669453778506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,8 +860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a061ee5bd0cb4af48ad3706812eb553e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 25
-  actionCost: 2
+  healAmount: 100
+  actionCost: 1
 --- !u!114 &3309159743740176885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,8 +874,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c64e11d3e257546983865716c5432a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageShoot: 80
-  actionCost: 1
+  damageShoot: 0
+  actionCost: 0
   obstaclesLayerMask:
     serializedVersion: 2
     m_Bits: 320
@@ -922,7 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b342a429d46cd654593d21954c144570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ragdollPrefab: {fileID: 702917939634880373, guid: 513136e236c15614fbc7deb1b78f5981, type: 3}
+  ragdollPrefab: {fileID: 702917939634880373, guid: 26bfacf4b51cbc54c99ea866052c569c, type: 3}
   originalRootBone: {fileID: 2962509092277261933}
 --- !u!114 &4402788000142327238
 MonoBehaviour:
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grenadeProjectilePrefab: {fileID: 7330825917761815315, guid: 0da49b9cfc7386c4c938381ac7fb4efe, type: 3}
   maxThrowDistance: 7
-  actionCost: 2
+  actionCost: 3
 --- !u!114 &4800138249722273748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,8 +951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98cb59a32cfcd3640ba4b7b9a7964b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knifeDamage: 100
-  actionCost: 2
+  knifeDamage: 50
+  actionCost: 1
 --- !u!114 &2843380935907640170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1279,7 +1279,7 @@ PrefabInstance:
     - target: {fileID: 137043315913542574, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: -2256335790639286181, guid: 27f783d513e29d14a8e8dfbc8d4845b2, type: 3}
+      objectReference: {fileID: 2100000, guid: ed9dcc617b7fd1f4a818c4fc40001833, type: 2}
     - target: {fileID: 137643088177630326, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
       propertyPath: m_Enabled
       value: 0

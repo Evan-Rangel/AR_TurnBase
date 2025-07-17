@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|c:\\users\\rifo9\\onedrive\\documents\\github\\ar_turnbase\\rpg tactic\\assets\\models\\3ds - the legend of zelda majoras mask 3d - majoras mask\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\3ds - the legend of zelda majoras mask 3d - majoras mask\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|c:\\users\\rifo9\\onedrive\\documents\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\nextscene\\nextscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nextscene\\nextscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|c:\\users\\rifo9\\onedrive\\documents\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\ui\\unitactionsystemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\unitactionsystemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NextSceneTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "ToolTip": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T23:18:30.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitActionSystemUI.cs",
+              "DocumentMoniker": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "ToolTip": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFEAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T19:07:42.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
               "RelativeDocumentMoniker": "Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
               "ToolTip": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
               "RelativeToolTip": "Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-16T02:34:22.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T02:34:22.978Z"
             }
           ]
         }

@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 6974969795929022510}
   m_Layer: 7
   m_Name: Unit_Archer
-  m_TagString: Untagged
+  m_TagString: Archer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d72fdb1e5fcb51844a0054f73ca68d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action_Max: 2
+  action_Max: 4
   isEnemy: 0
 --- !u!114 &121005556019208392
 MonoBehaviour:
@@ -860,8 +860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a061ee5bd0cb4af48ad3706812eb553e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healAmount: 25
-  actionCost: 2
+  healAmount: 0
+  actionCost: 0
 --- !u!114 &3309159743740176885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10c64e11d3e257546983865716c5432a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageShoot: 80
+  damageShoot: 100
   actionCost: 1
   obstaclesLayerMask:
     serializedVersion: 2
@@ -922,7 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b342a429d46cd654593d21954c144570, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ragdollPrefab: {fileID: 702917939634880373, guid: 513136e236c15614fbc7deb1b78f5981, type: 3}
+  ragdollPrefab: {fileID: 702917939634880373, guid: 4cb471c3f9ce03245a4120c428ccb195, type: 3}
   originalRootBone: {fileID: 2962509092277261933}
 --- !u!114 &4402788000142327238
 MonoBehaviour:
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grenadeProjectilePrefab: {fileID: 7330825917761815315, guid: 0da49b9cfc7386c4c938381ac7fb4efe, type: 3}
   maxThrowDistance: 7
-  actionCost: 2
+  actionCost: 4
 --- !u!114 &4800138249722273748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,8 +951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98cb59a32cfcd3640ba4b7b9a7964b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knifeDamage: 100
-  actionCost: 2
+  knifeDamage: 0
+  actionCost: 0
 --- !u!114 &2843380935907640170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1279,7 +1279,7 @@ PrefabInstance:
     - target: {fileID: 137043315913542574, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: -2841751165181792128, guid: bb1217885b890324686399d1da6b9402, type: 3}
+      objectReference: {fileID: 2100000, guid: 0a6c3270a35bc014a9edc01be323ff12, type: 2}
     - target: {fileID: 137643088177630326, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
       propertyPath: m_Enabled
       value: 0

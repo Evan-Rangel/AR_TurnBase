@@ -588,7 +588,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 702917939634880373, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 702917939634880373, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -596,7 +596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 702917939634880373, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 702917939634880373, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -626,13 +626,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 910418529746390294, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: action_Max
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2212838669453778506, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: actionCost
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2951433493868488791, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 4963564451219542453, guid: 21463956f58372b4db14b807127f8973, type: 3}
+    - target: {fileID: 3309159743740176885, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: damageShoot
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4402788000142327238, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: actionCost
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800138249722273748, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: actionCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800138249722273748, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: knifeDamage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6159205329615164348, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: ragdollPrefab
+      value: 
+      objectReference: {fileID: 702917939634880373, guid: 2cc9375d15e1d7a47b6cf44a2b38f684, type: 3}
     - target: {fileID: 8918432341658365745, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: m_Name
       value: Unit_Mage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918432341658365745, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: m_TagString
+      value: Mage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

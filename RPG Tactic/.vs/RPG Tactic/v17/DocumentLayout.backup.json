@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\",
+  "WorkspaceRootPath": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\grid\\gridsystemvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\gridsystemvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|c:\\users\\rifo9\\onedrive\\documents\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\nextscene\\nextscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nextscene\\nextscenetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|c:\\users\\rifo9\\onedrive\\documents\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\ui\\unitactionsystemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\unitactionsystemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\dp_unityprojects\\unity_rpg_tactic\\rpg tactic\\assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LevelScripting.cs",
-              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\LevelScripting.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripting.cs",
-              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\LevelScripting.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LevelScripting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "NextSceneTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "ToolTip": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T22:35:36.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pathfinding.cs",
-              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Pathfinding.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Pathfinding.cs",
-              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Pathfinding.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Pathfinding.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T22:35:12.441Z",
+              "WhenOpened": "2025-07-16T23:18:30.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Unit.cs",
-              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Unit.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Unit.cs",
-              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Unit.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABeAAAAAAAAAA==",
+              "Title": "UnitActionSystemUI.cs",
+              "DocumentMoniker": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "ToolTip": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFEAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T21:10:30.294Z",
+              "WhenOpened": "2025-07-16T19:07:42.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GridSystemVisual.cs",
-              "DocumentMoniker": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystemVisual.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\GridSystemVisual.cs",
-              "ToolTip": "E:\\DP_UnityProjects\\Unity_RPG_Tactic\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystemVisual.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Grid\\GridSystemVisual.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwBMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T21:05:08.556Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
+              "RelativeDocumentMoniker": "Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
+              "ToolTip": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
+              "RelativeToolTip": "Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-16T02:34:22.978Z"
             }
           ]
         }
