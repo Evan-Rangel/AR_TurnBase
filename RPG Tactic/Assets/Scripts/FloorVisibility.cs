@@ -32,11 +32,11 @@ public class FloorVisibility : MonoBehaviour
             floor = LevelGrid.Instance.GetFloor(transform.position);
         }
 
-        float cameraHeight = CameraController.Instance.GetCameraHeight();
-        float floorHeightOffset = 2f;
-        bool showObject = cameraHeight > LevelGrid.FLOOR_HEIGHT * floor + floorHeightOffset;
+        //float cameraHeight = CameraController.Instance.GetCameraHeight();
+        //float floorHeightOffset = 2f;
+        //bool showObject = cameraHeight > LevelGrid.FLOOR_HEIGHT * floor + floorHeightOffset;
 
-        if (showObject || floor == 0)
+        if (/*showObject ||*/ floor == 0)
         {
             Show();
         }

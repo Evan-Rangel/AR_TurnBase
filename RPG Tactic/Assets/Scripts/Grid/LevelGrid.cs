@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class LevelGrid : MonoBehaviour
 {
@@ -24,9 +25,8 @@ public class LevelGrid : MonoBehaviour
     [SerializeField] private float cellSize;
     [SerializeField] private bool seeGridDebugObjectPrefab;
     [SerializeField] private int floorAmount;
-
     private List<GridSystem<GridObject>> gridSystemList;
-
+    public float CellScale;
     private void Awake()
     {
         if (Instance != null)
@@ -60,6 +60,7 @@ public class LevelGrid : MonoBehaviour
 
     private GridSystem<GridObject> GetGridSystem(int floor)
     {
+       // Debug.Log("floor: "+floor);
         return gridSystemList[floor];
     }
 
@@ -99,7 +100,8 @@ public class LevelGrid : MonoBehaviour
     //public GridPosition GetGridPosition(Vector3 worldPosition) => gridSystem.GetGridPosition(worldPosition);
     public int GetFloor(Vector3 worldPosition)
     {
-        return Mathf.RoundToInt(worldPosition.y / FLOOR_HEIGHT);
+        //Debug.Log("World Position: " + worldPosition);
+        return Mathf.RoundToInt((worldPosition.y-transform.root.position.y) / FLOOR_HEIGHT);
     }
 
     public GridPosition GetGridPosition(Vector3 worldPosition)

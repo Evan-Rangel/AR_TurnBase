@@ -27,7 +27,8 @@ public class Unit : MonoBehaviour
 
     private void Start()
     {
-        gridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
+       // gridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
+        gridPosition = LevelGrid.Instance.GetGridPosition(transform.localPosition);
 
         LevelGrid.Instance.AddUnitAtGridPosition(gridPosition, this);
 
@@ -40,7 +41,8 @@ public class Unit : MonoBehaviour
 
     private void Update()
     {
-        GridPosition newGridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
+        GridPosition newGridPosition = LevelGrid.Instance.GetGridPosition(transform.localPosition);
+        //GridPosition newGridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
         if (newGridPosition != gridPosition)
         {
             GridPosition oldGridPosition = gridPosition;
@@ -69,7 +71,8 @@ public class Unit : MonoBehaviour
 
     public Vector3 GetWorldPosition()
     {
-        return transform.position;
+        //return transform.position;
+        return transform.localPosition;
     }
 
     public BaseAction[] GetBaseActionArray()

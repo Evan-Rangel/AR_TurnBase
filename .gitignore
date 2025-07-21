@@ -11,7 +11,7 @@ UserSettings/
 # Archivos de paquetes
 Packages/manifest.json.meta
 Packages/packages-lock.json
-
+Packages/com.ptc.vuforia.engine-11.3.4.tgz
 # Cache de paquetes
 **/PackageCache/
 **/AssetCache/

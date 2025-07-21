@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="vaporeon" size="0.100000 0.100000" />
+    <ImageTarget name="usaring" size="0.100000 0.100000" />
+    <ImageTarget name="typlosion" size="0.100000 0.100000" />
+    <ImageTarget name="piplut" size="0.100000 0.100000" />
+    <ImageTarget name="palkia" size="0.100000 0.100000" />
+    <ImageTarget name="machoke" size="0.100000 0.100000" />
+    <ImageTarget name="infernate" size="0.100000 0.100000" />
+    <ImageTarget name="furret" size="0.100000 0.100000" />
+    <ImageTarget name="executor" size="0.100000 0.100000" />
+    <ImageTarget name="chikorita" size="0.100000 0.100000" />
+    <ImageTarget name="charizard" size="0.100000 0.100000" />
+    <ImageTarget name="celebi" size="0.100000 0.100000" />
+    <ImageTarget name="fuego24" size="0.100000 0.100000" />
+    <ImageTarget name="agua24" size="0.100000 0.100000" />
+    <ImageTarget name="cha_hae-in_24" size="3.000000 4.795567" />
+  </Tracking>
+</QCARConfig>
