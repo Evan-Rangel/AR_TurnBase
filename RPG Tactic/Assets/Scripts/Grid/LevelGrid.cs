@@ -27,6 +27,9 @@ public class LevelGrid : MonoBehaviour
     [SerializeField] private int floorAmount;
     private List<GridSystem<GridObject>> gridSystemList;
     public float CellScale;
+    [SerializeField] Transform gameHolder;
+    public Transform GetHolderTransform => gameHolder;
+
     private void Awake()
     {
         if (Instance != null)
@@ -101,13 +104,27 @@ public class LevelGrid : MonoBehaviour
     public int GetFloor(Vector3 worldPosition)
     {
         //Debug.Log("World Position: " + worldPosition);
-        return Mathf.RoundToInt((worldPosition.y-transform.root.position.y) / FLOOR_HEIGHT);
+        //return Mathf.RoundToInt((worldPosition.y-transform.root.position.y) / FLOOR_HEIGHT);
+        return Mathf.RoundToInt(worldPosition.y / FLOOR_HEIGHT);
     }
 
     public GridPosition GetGridPosition(Vector3 worldPosition)
     {
         int floor = GetFloor(worldPosition);
         return GetGridSystem(floor).GetGridPosition(worldPosition);
+
+
+        /*Vector3 localPosition = transform.InverseTransformPoint(worldPosition);
+
+        int x = Mathf.RoundToInt(localPosition.x / cellSize);
+        int z = Mathf.RoundToInt(localPosition.z / cellSize);
+        int yFloor = Mathf.RoundToInt(localPosition.y / FLOOR_HEIGHT);
+
+        // luego validas que yFloor esté en [0, gridSystems.Count)
+        yFloor = Mathf.Clamp(yFloor, 0, gridSystemList.Count - 1);
+
+        return gridSystemList[yFloor].GetGridSystem(new Vector2Int(x, z));
+    */
     }
 
     //public Vector3 GetWorldPosition(GridPosition gridPosition) => gridSystem.GetWorldPosition(gridPosition);

@@ -17,12 +17,14 @@ public class BulletProjectile : MonoBehaviour
 
     private void Update()
     {
-        Vector3 moveDir = (targetPosition - transform.position).normalized;
+       // Vector3 moveDir = (targetPosition - transform.position).normalized;
+        Vector3 moveDir = (targetPosition - transform.localPosition).normalized;
 
         float distanceBeforeMoving = Vector3.Distance(transform.position, targetPosition);
 
         float moveSpeed = 200f;
-        transform.position += moveDir * moveSpeed * Time.deltaTime;
+        //transform.position += moveDir * moveSpeed * Time.deltaTime;
+        transform.localPosition += moveDir * moveSpeed * Time.deltaTime;
 
         float distanceAfterMoving = Vector3.Distance(transform.position, targetPosition);
 
@@ -34,7 +36,7 @@ public class BulletProjectile : MonoBehaviour
 
             Destroy(gameObject);
 
-            Instantiate(bulletHitVFXPrefab, targetPosition, Quaternion.identity);
+            Instantiate(bulletHitVFXPrefab, targetPosition, Quaternion.identity, LevelGrid.Instance.GetHolderTransform);
         }
     }
 }

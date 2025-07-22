@@ -5774,6 +5774,7 @@ MonoBehaviour:
   seeGridDebugObjectPrefab: 0
   floorAmount: 1
   CellScale: 0
+  gameHolder: {fileID: 0}
 --- !u!4 &927742524
 Transform:
   m_ObjectHideFlags: 0
@@ -10871,6 +10872,18 @@ PrefabInstance:
     - target: {fileID: 702917939634880373, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951433493868488791, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959032218392897687, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960891896166131537, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8918432341658365745, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: m_Name

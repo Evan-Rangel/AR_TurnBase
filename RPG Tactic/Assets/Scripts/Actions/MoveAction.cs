@@ -34,11 +34,11 @@ public class MoveAction : BaseAction
         if (isChangingFloors)
         {
             Vector3 targetSameFloorPosition = targetPosition;
-            targetSameFloorPosition.y = transform.position.y;
-            //targetSameFloorPosition.y = transform.localPosition.y;
+            //targetSameFloorPosition.y = transform.position.y;
+            targetSameFloorPosition.y = transform.localPosition.y;
 
-            Vector3 rotateDirection = (targetSameFloorPosition - transform.position).normalized;
-            //Vector3 rotateDirection = (targetSameFloorPosition - transform.localPosition).normalized;
+            //Vector3 rotateDirection = (targetSameFloorPosition - transform.position).normalized;
+            Vector3 rotateDirection = (targetSameFloorPosition - transform.localPosition).normalized;
 
             float rotateSpeed = 10f;
             transform.forward = Vector3.Slerp(transform.forward, rotateDirection, Time.deltaTime * rotateSpeed);
@@ -47,25 +47,26 @@ public class MoveAction : BaseAction
             if (differentFloorsTeleportTimer < 0f)
             {
                 isChangingFloors = false;
-                transform.position = targetPosition;
-                //transform.localPosition = targetPosition;
+                //transform.position = targetPosition;
+                transform.localPosition = targetPosition;
             }
         }
         else
         {
-            Vector3 moveDirection = (targetPosition - transform.position).normalized;
+            //Vector3 moveDirection = (targetPosition - transform.position).normalized;
+            Vector3 moveDirection = (targetPosition - transform.localPosition).normalized;
 
             float rotateSpeed = 10f;
             transform.forward = Vector3.Slerp(transform.forward, moveDirection, Time.deltaTime * rotateSpeed);
 
             float moveSpeed = 4f;
-            transform.position += moveDirection * moveSpeed * Time.deltaTime;
-            //transform.localPosition += moveDirection * moveSpeed * Time.deltaTime;
+            //transform.position += moveDirection * moveSpeed * Time.deltaTime;
+            transform.localPosition += moveDirection * moveSpeed * Time.deltaTime;
         }
 
         float stoppingDistance = .1f;
-       if (Vector3.Distance(transform.position, targetPosition) < stoppingDistance)
-        //if (Vector3.Distance(transform.localPosition, targetPosition) < stoppingDistance)
+       //if (Vector3.Distance(transform.position, targetPosition) < stoppingDistance)
+        if (Vector3.Distance(transform.localPosition, targetPosition) < stoppingDistance)
         {
             currentPositionIndex++;
             if (currentPositionIndex >= positionList.Count)
@@ -78,8 +79,8 @@ public class MoveAction : BaseAction
             {
                 targetPosition = positionList[currentPositionIndex];
                 GridPosition targetGridPosition = LevelGrid.Instance.GetGridPosition(targetPosition);
-                GridPosition unitGridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
-                //GridPosition unitGridPosition = LevelGrid.Instance.GetGridPosition(transform.localPosition);
+                //GridPosition unitGridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
+                GridPosition unitGridPosition = LevelGrid.Instance.GetGridPosition(transform.localPosition);
 
                 if (targetGridPosition.floor != unitGridPosition.floor)
                 {

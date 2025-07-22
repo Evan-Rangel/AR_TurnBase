@@ -34,7 +34,8 @@ public class KnifeAction : BaseAction
         switch (state)
         {
             case State.SwingingKnifeBeforeHit:
-                Vector3 aimDir = (targetUnit.GetWorldPosition() - unit.GetWorldPosition()).normalized;
+                //Vector3 aimDir = (targetUnit.GetWorldPosition() - unit.GetWorldPosition()).normalized;
+                Vector3 aimDir = (targetUnit.transform.localPosition - unit.transform.localPosition).normalized;
 
                 float rotateSpeed = 10f;
                 transform.forward = Vector3.Lerp(transform.forward, aimDir, Time.deltaTime * rotateSpeed);

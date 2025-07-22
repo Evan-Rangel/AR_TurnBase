@@ -72,7 +72,19 @@ public class UnitActionSystem : MonoBehaviour
         if (InputManager.Instance.IsMouseButtonDownThisFrame())
         {
             //GridPosition mouseGridPosition = LevelGrid.Instance.GetGridPosition(MouseWorld.GetPosition());
-            GridPosition mouseGridPosition = LevelGrid.Instance.GetGridPosition(MouseWorld.GetPositionOnlyHitVisible());
+           // GridPosition mouseGridPosition = LevelGrid.Instance.GetGridPosition(MouseWorld.GetPositionOnlyHitVisible());
+
+            // 1) Calcula el hit en world
+            Vector3 hitWorldPos = MouseWorld.GetPositionOnlyHitVisible();
+
+            // 2) Transfórmalo a local del ImageTarget
+            //    Asumo que el LevelGrid está bajo el ImageTarget,
+            //    así que su transform será el mismo origen local.
+            Vector3 hitLocalPos = LevelGrid.Instance.transform.InverseTransformPoint(hitWorldPos);
+
+            // 3) Ahora pásalo al grid
+            GridPosition mouseGridPosition = LevelGrid.Instance.GetGridPosition(hitLocalPos);
+
 
             if (!selectedAction.IsValidActionGridPosition(mouseGridPosition))
             {

@@ -45,7 +45,9 @@ public class ShootAction : BaseAction
         switch (state)
         {
             case State.Aiming:
-                Vector3 aimDir = (targetUnit.GetWorldPosition() - unit.GetWorldPosition()).normalized;
+                //Vector3 aimDir = (targetUnit.GetWorldPosition() - unit.GetWorldPosition()).normalized;
+                Vector3 aimDir = (targetUnit.transform.localPosition - unit.transform.localPosition).normalized;
+
                 aimDir.y = 0f;
 
                 float rotateSpeed = 10f;
@@ -104,6 +106,10 @@ public class ShootAction : BaseAction
 
         GridPosition shooterPosition = unit.GetGridPosition();
         GridPosition targetPosition = targetUnit.GetGridPosition();
+
+        //Vector3 shooterPos = unit.transform.localPosition;
+        //Vector3 targetPos = targetUnit.transform.localPosition;
+
 
         if (shooterPosition.floor > targetPosition.floor)
         {

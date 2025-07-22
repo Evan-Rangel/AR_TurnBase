@@ -28,7 +28,8 @@ public class GrenadeProjectile : MonoBehaviour
 
         float maxHeight = totalDistance / 4f;
         float positionY = arcYAnimationCurve.Evaluate(distanceNormalized) * maxHeight;
-        transform.position = new Vector3(positionXZ.x, positionY, positionXZ.z);
+        //transform.position = new Vector3(positionXZ.x, positionY, positionXZ.z);
+        transform.localPosition = new Vector3(positionXZ.x, positionY, positionXZ.z);
 
         float reachedTargetDistance = .2f;
         if (Vector3.Distance(positionXZ, targetPosition) < reachedTargetDistance)
@@ -63,7 +64,8 @@ public class GrenadeProjectile : MonoBehaviour
     public void Setup(GridPosition targetGridPosition, Action onGrenadeBehaviourComplete)
     {
         this.onGrenadeBehaviourComplete = onGrenadeBehaviourComplete;
-        targetPosition = LevelGrid.Instance.GetWorldPosition(targetGridPosition);
+        // targetPosition = LevelGrid.Instance.GetWorldPosition(targetGridPosition);
+        targetPosition = LevelGrid.Instance.transform.TransformPoint(LevelGrid.Instance.GetWorldPosition(targetGridPosition));
 
         positionXZ = transform.position;
         positionXZ.y = 0;
