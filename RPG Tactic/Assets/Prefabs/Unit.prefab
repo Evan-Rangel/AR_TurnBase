@@ -835,6 +835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   action_Max: 2
   isEnemy: 0
+  skinnedMeshRenderer: {fileID: 2951433493868488791}
 --- !u!114 &121005556019208392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,6 +1278,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 137043315913542574, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137043315913542574, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 673443bdcb7bf2f47be93ce60e68966f, type: 2}
@@ -1298,6 +1303,11 @@ PrefabInstance:
 --- !u!95 &2900391447147043233 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 95485627480488536, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
+  m_PrefabInstance: {fileID: 2959842470007333881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &2951433493868488791 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 137043315913542574, guid: 8dbb22b9d53a7664b8619d4c6888d92f, type: 3}
   m_PrefabInstance: {fileID: 2959842470007333881}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2955197916896711009 stripped

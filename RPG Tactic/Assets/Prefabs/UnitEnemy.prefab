@@ -48,8 +48,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 871819776887164631, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 910418529746390294, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
       propertyPath: isEnemy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951012103541871591, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2951012103541871591, guid: 4cad2577e3b2ba64c890f50e4bd7ea6f, type: 3}

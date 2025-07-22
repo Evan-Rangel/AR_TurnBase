@@ -17,12 +17,13 @@ public class Unit : MonoBehaviour
     private HealthSystem healthSystem;
     private BaseAction[] baseActionArray;
     private int actionPoints;
-
+    SkinnedMeshRenderer skinnedMeshRenderer;
     private void Awake()
     {
         actionPoints = action_Max;
         healthSystem = GetComponent<HealthSystem>();
         baseActionArray = GetComponents<BaseAction>();
+        skinnedMeshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
     }
 
     private void Start()
@@ -41,6 +42,7 @@ public class Unit : MonoBehaviour
 
     private void Update()
     {
+        skinnedMeshRenderer.enabled = true;
         GridPosition newGridPosition = LevelGrid.Instance.GetGridPosition(transform.localPosition);
         //GridPosition newGridPosition = LevelGrid.Instance.GetGridPosition(transform.position);
         if (newGridPosition != gridPosition)
@@ -49,7 +51,8 @@ public class Unit : MonoBehaviour
             gridPosition = newGridPosition;
 
             LevelGrid.Instance.UnitMovedGridPosition(this, oldGridPosition, newGridPosition);
-        }    
+        }
+        
     }
 
     public T GetAction<T>() where T : BaseAction
