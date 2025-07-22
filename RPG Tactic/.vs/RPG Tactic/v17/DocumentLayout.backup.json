@@ -3,31 +3,43 @@
   "WorkspaceRootPath": "E:\\Github\\AR_TurnBase\\RPG Tactic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|E:\\Github\\AR_TurnBase\\RPG Tactic\\assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|E:\\Github\\AR_TurnBase\\RPG Tactic\\assets\\scripts\\floorvisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\floorvisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\actions\\moveaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\actions\\moveaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|E:\\Github\\AR_TurnBase\\RPG Tactic\\assets\\scripts\\grid\\levelgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\levelgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\grid\\gridsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\gridsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|E:\\Github\\AR_TurnBase\\RPG Tactic\\assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\grid\\gridsystemvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\gridsystemvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\grid\\levelgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grid\\levelgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelscripting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\floorvisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\floorvisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|E:\\Github\\AR_TurnBase\\RPG Tactic\\assets\\scripts\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|e:\\github\\ar_turnbase\\rpg tactic\\assets\\scripts\\endgame\\enemydeathendgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|E:\\Github\\AR_TurnBase\\RPG Tactic\\assets\\scripts\\endgame\\enemydeathendgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B2F120B-B14E-86D4-6823-2260ACAD41E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endgame\\enemydeathendgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -53,76 +65,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MoveAction.cs",
+              "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Actions\\MoveAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Actions\\MoveAction.cs",
+              "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Actions\\MoveAction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Actions\\MoveAction.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T01:42:30.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pathfinding.cs",
+              "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Pathfinding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pathfinding.cs",
+              "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Pathfinding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pathfinding.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwE4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T01:28:00.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GridSystem.cs",
+              "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\GridSystem.cs",
+              "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grid\\GridSystem.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T01:19:51.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GridSystemVisual.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystemVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\GridSystemVisual.cs",
               "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Grid\\GridSystemVisual.cs",
               "RelativeToolTip": "Assets\\Scripts\\Grid\\GridSystemVisual.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAkwDgAAACbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T05:25:17.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LevelGrid.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Grid\\LevelGrid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Grid\\LevelGrid.cs",
               "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Grid\\LevelGrid.cs",
               "RelativeToolTip": "Assets\\Scripts\\Grid\\LevelGrid.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAYwG8AAACBAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwHMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T05:23:58.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "LevelScripting.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\LevelScripting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelScripting.cs",
               "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\LevelScripting.cs",
               "RelativeToolTip": "Assets\\Scripts\\LevelScripting.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAD4vxYAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T05:24:46.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Unit.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Unit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Unit.cs",
               "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\Unit.cs",
               "RelativeToolTip": "Assets\\Scripts\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T05:22:54.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FloorVisibility.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\FloorVisibility.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FloorVisibility.cs",
               "ToolTip": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\FloorVisibility.cs",
               "RelativeToolTip": "Assets\\Scripts\\FloorVisibility.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwB8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T05:16:48.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "HealthSystem.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\HealthSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthSystem.cs",
@@ -135,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EnemyDeathEndGame.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\EndGame\\EnemyDeathEndGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndGame\\EnemyDeathEndGame.cs",
@@ -148,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Lit.shader",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Library\\PackageCache\\com.unity.render-pipelines.universal@43e3bf1c3037\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@43e3bf1c3037\\Shaders\\Lit.shader",
@@ -156,11 +207,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@43e3bf1c3037\\Shaders\\Lit.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-07-18T01:00:08.746Z"
+              "WhenOpened": "2025-07-18T01:00:08.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "NextSceneTrigger.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
@@ -168,11 +220,12 @@
               "RelativeToolTip": "Assets\\Scripts\\NextScene\\NextSceneTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:18:30.873Z"
+              "WhenOpened": "2025-07-16T23:18:30.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "UnitActionSystemUI.cs",
               "DocumentMoniker": "E:\\Github\\AR_TurnBase\\RPG Tactic\\Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UnitActionSystemUI.cs",
@@ -184,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",
               "ToolTip": "C:\\Users\\rifo9\\OneDrive\\Documents\\GitHub\\AR_TurnBase\\RPG Tactic\\Assets\\Models\\3DS - The Legend of Zelda Majoras Mask 3D - Majoras Mask\\readme.txt",

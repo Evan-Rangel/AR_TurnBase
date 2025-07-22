@@ -15,7 +15,7 @@ Packages/com.ptc.vuforia.engine-11.3.4.tgz
 # Cache de paquetes
 **/PackageCache/
 **/AssetCache/
-
+.vs/
 # Archivos específicos de plataformas o compilación
 sysinfo.txt
 *.apk
