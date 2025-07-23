@@ -46,7 +46,7 @@ public class LevelGrid : MonoBehaviour
         for (int floor = 0; floor < floorAmount; floor++)
         {
             GridSystem<GridObject> gridSystem = new GridSystem<GridObject>(width, height, cellSize, floor, FLOOR_HEIGHT, (GridSystem<GridObject> g, GridPosition gridPosition) => new GridObject(g, gridPosition));
-            //gridSystem.CreateDebugObjects(gridDebugObjectPrefab);
+           // gridSystem.CreateDebugObjects(gridDebugObjectPrefab);
             gridSystemList.Add(gridSystem);
         }
 
@@ -110,8 +110,17 @@ public class LevelGrid : MonoBehaviour
 
     public GridPosition GetGridPosition(Vector3 worldPosition)
     {
+
+        //Vector3 localPosition = transform.InverseTransformPoint(worldPosition);
+
         int floor = GetFloor(worldPosition);
-        return GetGridSystem(floor).GetGridPosition(worldPosition);
+        GridPosition gridPosition= GetGridSystem(floor).GetGridPosition(worldPosition);
+        
+        Debug.Log("wolrdPos: "+ worldPosition.x + ", " + worldPosition.z);
+        Debug.Log("gridPos: "+ gridPosition.x + ", " + gridPosition.z);
+
+
+        return gridPosition;
 
 
         /*Vector3 localPosition = transform.InverseTransformPoint(worldPosition);
@@ -123,7 +132,7 @@ public class LevelGrid : MonoBehaviour
         // luego validas que yFloor esté en [0, gridSystems.Count)
         yFloor = Mathf.Clamp(yFloor, 0, gridSystemList.Count - 1);
 
-        return gridSystemList[yFloor].GetGridSystem(new Vector2Int(x, z));
+        return GetGridSystem(yFloor).GetGridPosition(new Vector3(x, localPosition.y,z));
     */
     }
 

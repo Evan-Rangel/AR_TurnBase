@@ -30,7 +30,7 @@ public class MoveAction : BaseAction
         }
 
         Vector3 targetPosition = positionList[currentPositionIndex];
-
+       // targetPosition = transform.InverseTransformPoint(targetPosition);
         if (isChangingFloors)
         {
             Vector3 targetSameFloorPosition = targetPosition;
